@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>details</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <style>
+      .redText {
+        color: red;
+      }
+      body {
+        background-color: yellow;
+      }
+      .gradient {
+        width: '200px';
+        height: '200px';
+        background: linear-gradient(
+          to right,
+          red,
+          orange,
+          yellow,
+          green,
+          blue,
+          indigo,
+          violet
+        );
+      }
+      .shadow {
+        text-shadow: 3px 3px 5px purple;
+      }
+      ::selection {
+        background: rgb(115, 255, 0);
+      }
+      .box {
+        height: 300px;
+        width: 300px;
+        border: 10px solid paleturquoise;
+        overflow: auto;
+      }
+      h1 {
+        color: rgb(255, 0, 0);
+      }
+      p {
+        color: red;
+      }
+      h5 {
+        color: red;
+      }
+      .input {
+        width: 200px;
+      }
+      .thwomp:hover {
+        color: rgb(255, 38, 0);
+      }
+      .thwomp {
+        color: darkred;
+      }
+    </style>
+  </head>
+  <body class="m-2">
+    <h1 class="shadow">Details</h1>
+    <p class="lead">
+      These are more details of my lego <a href="index.html">website</a>.
+    </p>
+    <div class="card gradient" style="width: 18rem">
+      <div class="card-header text-center"></div>
+      <div class="card-body"></div>
+    </div>
+    <div class="card bg-primary" style="width: 18rem">
+      <div class="card-header text-center">
+        <h5 class="card-title">Thwomp Drop</h5>
+      </div>
+      <div class="card-body">
+        <p>
+          <a
+            class="thwomp"
+            href="https://www.amazon.ca/LEGO-Expansion-Building-Collectible-Creative/dp/B0858873QD/ref=sr_1_14?dchild=1&keywords=lego+mario&qid=1614718587&sr=8-14"
+            >Thwomp</a
+          >
+          Drop is 393 pieces and is a mario lego set the length of the box is 35
+          centimeters the height of the box is 19 centimeters the depth of the
+          box is 7 centimeters.
+        </p>
+      </div>
+    </div>
+    <div class="card bg-warning" style="width: 18rem">
+      <div class="card-header text-center">
+        <h5 class="card-title">Wiggler's poison swamp</h5>
+      </div>
+      <div class="card-body">
+        <p>
+          <a
+            href="https://www.amazon.ca/LEGO-Wigglers-Expansion-Building-Creative/dp/B08HVYCHRB/ref=sr_1_17?dchild=1&keywords=lego+mario&qid=1616275750&sr=8-17"
+            target="_blank"
+            >Wiggler's</a
+          >
+          poison swamp is 374 pieces and is a mario lego set the length of the
+          box is 35 centimeters the height of the box is 19 centimeters the
+          depth of the box is 7 centimeters.
+        </p>
+      </div>
+    </div>
+    <div class="card gradient" style="width: 18rem">
+      <div class="card-header text-center"></div>
+      <div class="card-body"></div>
+    </div>
+    <h1>mario lego prices</h1>
+    <div class="box">
+      <p>
+        Mario Lego has a price of 4.99 dollars to 139.99 dollars. That might
+        seem overly expensive but its not. look at this list of the lego sets:
+        <br />
+        Bowser's Castle Boss Battle $139.99 1010 pieces <br />
+        Adventures with Mario Starter Course $69.99 231 pieces <br />
+        Piranha Plant Power Slide $39.99 217 pieces <br />
+        Desert Pokey $24.99 180 pieces <br />
+        Boomer Bill Barrage $39.99 132 pieces <br />
+        Wiggler's Poison Swamp $49.99 374 pieces <br />
+        Chain Chomp Jungle Encounter $24.99 160 pieces <br />
+        Piranha Plant Puzzling Challenge $39.99 267 pieces <br />
+        Guarded Fortress $69.99 468 pieces <br />
+        Toad's Treasure Hunt $89.99 464 pieces <br />
+        King Boo and the Haunted Yard $69.99 431 pieces <br />
+        Thwomp Drop $49.99 393 pieces <br />
+        Mario's House and Yoshi $39.99 205 pieces <br />
+        Character Pack Series 2 $4.99 24 pieces <br />
+        Master Your Adventure Maker $69.99 366 pieces <br />
+        Whomp's Lava Trouble $24.99 133 Pieces <br />
+        Character Pack $4.99 23 pieces <br />
+        Propeller Mario Power-Up Pack $13.99 13 pieces<br />
+        Fire Mario Power-Up Pack $13.99 11 pieces<br />
+        Penguin Mario Power-Up pack $13.99 18 pieces<br />
+        Builder Mario Power-Up Pack $13.99 10 pieces<br />
+        Tanooky Mario Power-Up Pack $13.99 13 pieces<br />
+        Cat Mario Power-Up Pack $13.99 11 pieces<br />
+        Super Mushroom Surprise $4.99 18 pieces<br />
+        Monty Mole and Super Mushroom $14.99 163 pieces<br />
+        Toads Special Hideaway $19.99 120 pieces
+        <br />
+        The Power-Up packs might seem overly expensive, but they're not. The
+        Power-Up packs have big pieces. And just so you're not fooled, you only
+        get one guy in the character pack.
+      </p>
+    </div>
+    <form>
+      <h1 class="h3 mb-3 fw-normal">Enter in your favorite thing</h1>
+      <input type="text" list="interests" />
+      <br />
+      <datalist id="interests">
+        <option>Coding</option>
+        <option>Building lego</option>
+        <option>Origami</option>
+        <option>Video games</option>
+        <option>Eating</option>
+        <option>Playing with your dog</option>
+        <option>Playing with lego</option>
+        <option>Panting</option>
+        <option>Drawing</option>
+        <option>Meccano</option>
+        <option>Science</option>
+        <option>Math</option>
+        <option>going outside</option>
+        <option>playing with your brothers/sisters</option>
+      </datalist>
+      <p class="redText">how much do you like this thing?</p>
+      <input type="range" />
+      <h4 class="redText">Answer these questions</h4>
+
+      <p class="redText">
+        do you have Lego?
+        <input type="checkbox" class="box1" />
+        <br />
+        do you know what Lego is?
+        <input type="checkbox" class="box2" />
+        <br />
+        do you know who Waluigi is?
+        <input type="checkbox" class="box3" />
+        <br />
+        do you know who Wario is?
+        <input type="checkbox" class="box4" />
+        <br />
+        do you know who Mario is?
+        <input type="checkbox" class="box5" />
+        <br />
+        do you know who Luigi is?
+        <input type="checkbox" class="box6" />
+        <br />
+      </p>
+    </form>
+    <button onclick="submit()" class="redText btn btn-info">submit</button>
+    <a href="mario_quiz.html">if you like quizzes press this link</a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+      function submit() {
+        let checkbox = $('.box1')[0];
+        let checkbox2 = $('.box2')[0];
+        let checkbox3 = $('.box3')[0];
+        let checkbox4 = $('.box4')[0];
+        let checkbox5 = $('.box5')[0];
+        let checkbox6 = $('.box6')[0];
+        if (checkbox.checked === true && checkbox2.checked === true) {
+          alert('You will probably like mario lego');
+        } else if (
+          (checkbox6.checked === true &&
+            checkbox5.checked === true &&
+            checkbox4.checked === true &&
+            checkbox3.checked === true) ||
+          (checkbox5.checked === true && checkbox6.checked === true)
+        ) {
+          alert('You will probably like video games');
+        } else if (checkbox5.checked === true) {
+          alert('You will probably like lego and mario lego');
+        } else {
+          alert("I don't know what you like");
+        }
+      }
+    </script>
+  </body>
+</html>

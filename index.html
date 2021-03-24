@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tyrian</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="m-2">
+    <div id="page">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Tyrian's Website</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDarkDropdown"
+            aria-controls="navbarNavDarkDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDarkDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Stores
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="navbarDarkDropdownMenuLink"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.amazon.ca/s?k=lego+mario&ref=nb_sb_noss_1"
+                      target="_blank"
+                      >Amazon</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.costco.ca/CatalogSearch?dept=All&keyword=lego+mario"
+                      target="_blank"
+                      >Costco</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.walmart.ca/search?q=lego%20mario"
+                      target="_blank"
+                      >Walmart</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-danger" onclick="logout()">Log Out</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <main class="pt-5">
+      <div class="login">
+        <h1 class="h3 mb-3 fw-normal">Please Enter Password</h1>
+        <label for="inputPassword" class="visually-hidden">Password</label>
+        <input
+          type="password"
+          id="inputPassword"
+          class="form-control"
+          placeholder="Password"
+          required
+          autofocus
+        />
+        <button class="w-100 btn btn-lg btn-primary" onclick="login()">
+          log in
+        </button>
+      </div>
+      <div class="page">
+        <div class="starter-template text-center py-5 px-3 m-2">
+          <h1 class="mainHeading">Lego</h1>
+          <p class="lead redText">This is a website about Lego</p>
+          <button class="btn btn-primary" onclick="showElement('myText')">
+            Press Here!
+          </button>
+          <button class="btn btn-secondary" onclick="hideElement('myText')">
+            Clear
+          </button>
+          <p class="lead" id="myText">
+            Hello my name is Tyrian. I like
+            <a href="http://lego.com" target="_blank">Lego</a>. Mario Lego is my
+            favorite type of Lego!<br />If you want to find good deals on Lego,
+            <a href="#deals">press here.</a>
+          </p>
+        </div>
+
+        <div id="div_sets">
+          <p class="lead redText">This is a list of all the Mario sets:</p>
+          <ol class="redText">
+            <li>Bowser's Castle Boss Battle</li>
+            <li>Adventures with Mario Starter Course</li>
+            <li>Piranha Plant Power Slide</li>
+            <li>Desert Pokey</li>
+            <li>Boomer Bill Barrage</li>
+            <li>Wiggler's Poison Swamp</li>
+            <li>Chain Chomp Jungle Encounter</li>
+            <li>Piranha Plant Puzzling Challenge</li>
+            <li>Guarded Fortress</li>
+            <li>Toads Treasure Hunt</li>
+            <li>King Boo and the Haunted Yard</li>
+            <li>Thwomp Drop</li>
+            <li>Mario's House and Yoshi</li>
+            <li>Character Pack Series 2</li>
+            <li>Master Your Adventure Maker</li>
+            <li>Whomp's Lava Trouble</li>
+            <li>Character Pack</li>
+            <li>Propeller Mario Power-Up Pack</li>
+            <li>Fire Mario Power-Up Pack</li>
+            <li>Penguin Mario Power-Up Pack</li>
+            <li>Builder Mario Power-Up Pack</li>
+            <li>Tanooky Mario Power-Up Pack</li>
+            <li>Cat Mario Power-Up Pack</li>
+            <li>Super Mushroom Surprise</li>
+            <li>Monty Mole and Super Mushroom</li>
+            <li>Toad's Special Hideaway</li>
+            <br />
+          </ol>
+        </div>
+        <div id="div_differentPrices" class="redText">
+          <h1>Different sets have different prices</h1>
+          Different sets have different prices.<br />
+          For example the colosseum is $659.99 <br />
+          and the millennium falcon is around $800.
+        </div>
+
+        <p class="redText lead" id="deals">
+          WARNING: Lego Mario only comes in the Adventures<br />
+          With Mario Starter Course.
+        </p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/sHYkOBk-4Fc"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <h4 class="redText">
+          For more videos go to
+          <a
+            href="https://www.youtube.com/results?search_query=lego+mario"
+            target="_blank"
+            >youtube</a
+          >
+        </h4>
+        <h1 collosseum="redText">Piece count</h1>
+        <p class="redText lead">
+          The Mario Lego (or just Lego) is quite expensive. The number of pieces
+          <br />
+          ranges from around 20 to 9036. To find good deals on Lego go to
+          <a
+            href="https://www.toysrus.ca/en/toysrus/Brands/L/LEGO/LEGO-Super-Mario"
+            target="_blank"
+            >toysrus</a
+          >
+          or
+          <a
+            href="https://www.mastermindtoys.com/pages/search-results?q=lego%20mario"
+            target="_blank"
+            >Mastermind toys</a
+          >
+        </p>
+
+        <h1>Price for Lego</h1>
+        <p class="lead redText">
+          Prices range from $4 to around $1000.<br />
+          If you want to see a list of the biggest Lego sets go to this
+          <a href="https://bricksfans.com/biggest-lego -sets/" target="_blank"
+            >website </a
+          ><br />with 23 of the biggest Lego sets in the world.
+        </p>
+        <div id="div_prices">
+          <h1>Price and Pieces for Mario Lego</h1>
+          <p class="redText lead">
+            Bowser's Castle Boss Battle $139.99 1010 pieces <br />
+            Adventures with Mario Starter Course $69.99 231 pieces <br />
+            Piranha Plant Power Slide $39.99 217 pieces <br />
+            Desert Pokey $24.99 180 pieces <br />
+            Boomer Bill Barrage $39.99 132 pieces <br />
+            Wiggler's Poison Swamp $49.99 374 pieces <br />
+            Chain Chomp Jungle Encounter $24.99 160 pieces <br />
+            Piranha Plant Puzzling Challenge $39.99 267 pieces <br />
+            Guarded Fortress $69.99 468 pieces <br />
+            Toad's Treasure Hunt $89.99 464 pieces <br />
+            King Boo and the Haunted Yard $69.99 431 pieces <br />
+            Thwomp Drop $49.99 393 pieces <br />
+            Mario's House and Yoshi $39.99 205 pieces <br />
+            Character Pack Series 2 $4.99 24 pieces <br />
+            Master Your Adventure Maker $69.99 366 pieces <br />
+            Whomp's Lava Trouble $24.99 133 Pieces <br />
+            Character Pack $4.99 23 pieces <br />
+            Propeller Mario Power-Up Pack $13.99 13 pieces<br />
+            Fire Mario Power-Up Pack $13.99 11 pieces<br />
+            Penguin Mario Power-Up pack $13.99 18 pieces<br />
+            Builder Mario Power-Up Pack $13.99 10 pieces<br />
+            Tanooky Mario Power-Up Pack $13.99 13 pieces<br />
+            Cat Mario Power-Up Pack $13.99 11 pieces<br />
+            Super Mushroom Surprise $4.99 18 pieces<br />
+            Monty Mole and Super Mushroom $14.99 163 pieces<br />
+            Toads Special Hideaway $19.99 120 pieces
+          </p>
+        </div>
+        <div id="div_missingPieces" class="redText lead">
+          <h1>Missing Pieces</h1>
+          Lego sometimes has missing pieces.<br />
+          If there are contact Lego.
+        </div>
+        <h1>This is a Level I Made</h1>
+        <p class="redText">click to download</p>
+        <a href="images/pic1.png" download
+          ><img / src="images/pic1.png" width = "500" alt="a mario level using 6
+          lego sets"></a
+        >
+
+        <button class="btn btn-success" id="textButton" onclick="changeText()">
+          Change text
+        </button>
+        <button
+          class="btn btn-info"
+          id="textButton2"
+          onclick="changeTextBack()"
+        >
+          Change text back
+        </button>
+        <form id="quiz-form">
+          <label class="lead redText">
+            lego Millennium falcon quiz <br />
+
+            <br />
+            <select id="quiz-answer" class="redText lead">
+              <option value="default"></option>
+              <option value="$800-$200">Between $800 and $200</option>
+              <option value="$800">Over $800</option>
+              <option value="$200">Less then $200</option>
+            </select>
+          </label>
+          <button type="submit" class="lead redText btn btn-secondary">
+            Check Answer
+          </button>
+        </form>
+        <br />
+
+        <div id="result" class="redText lead"></div>
+        <p class="redText lead">For answers press the change Text button.</p>
+        <p class="redText lead">
+          if you don't have the starter course here is some
+          <a
+            href="https://www.pinterest.ca/parkernruby/lego-super-mario/"
+            target="_blank"
+            >ideas</a
+          >
+        </p>
+        <h3 class="redText speech">Woohoo</h3>
+        <img class="mario" src="images/mario.png" width="200px" />
+        <img class="luigi" src="images/luigi.png" width="200px" />
+
+        <div
+          class="spinner-border text-danger"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        ></div>
+        <div
+          class="spinner-grow text-warning"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        ></div>
+        <div
+          class="spinner-border text-success"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        ></div>
+        <div
+          class="spinner-grow text-info"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        ></div>
+        <p class="redText lead">
+          If you want to learn more about the sets, go to
+          <a href="lego_sets.html">this website</a>
+        </p>
+      </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -135,6 +135,104 @@
     </form>
     <br />
     <div id="result5" class="redText lead"></div>
+    <form id="quiz-form6">
+      <label class="lead redText">
+        who is this?<br />
+        <img src="https://duckduckgo.com/i/df949e96.png" alt="" />
+        <br />
+        <select id="quiz-answer6" class="redText lead">
+          <option value="default6"></option>
+          <option value="waluigi">waluigi</option>
+          <option>mario</option>
+          <option>luigi</option>
+          <option>wario</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-primary">Check Answer</button>
+    </form>
+    <br />
+    <div id="result6" class="redText lead"></div>
+    <br />
+    <form id="quiz-form7">
+      <label class="lead redText">
+        what power-up is this?<br />
+        <img
+          src="https://mario.wiki.gallery/images/thumb/e/e0/Mega_Mushroom_-_MTUS.png/300px-Mega_Mushroom_-_MTUS.png"
+          alt=""
+          width="150px"
+        />
+        <br />
+        <select id="quiz-answer7" class="redText lead">
+          <option value="default7"></option>
+          <option>hot dog mushroom</option>
+          <option value="mega mushroom">mega mushroom</option>
+          <option>mushroom</option>
+          <option>wario mushroom</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-success">Check Answer</button>
+    </form>
+    <br />
+    <div id="result7" class="redText lead"></div>
+    <form id="quiz-form8">
+      <label class="lead redText">
+        who is this?<br />
+        <img
+          src="https://mario.wiki.gallery/images/thumb/8/84/NSMBW_Lemmy_Artwork.png/225px-NSMBW_Lemmy_Artwork.png"
+          alt=""
+          width="100px"
+        />
+        <br />
+        <select id="quiz-answer8" class="redText lead">
+          <option value="default8"></option>
+          <option>lenny</option>
+          <option>ball boy</option>
+          <option value="lemmy">lemmy</option>
+          <option>bouncer</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-warning">Check Answer</button>
+    </form>
+    <br />
+    <div id="result8" class="redText lead"></div>
+    <form id="quiz-form9">
+      <label class="lead redText">
+        what power-up is this?<br />
+        <img
+          src="https://mario.wiki.gallery/images/thumb/d/d0/New_Super_Mario_Bros._U_Deluxe_Ice_Flower.png/300px-New_Super_Mario_Bros._U_Deluxe_Ice_Flower.png"
+          alt=""
+          width="100px"
+        />
+        <br />
+        <select id="quiz-answer9" class="redText lead">
+          <option value="default9"></option>
+          <option>freeze flower</option>
+          <option>penguin flower</option>
+          <option>blue flower</option>
+          <option value="ice flower">ice flower</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-info">Check Answer</button>
+    </form>
+    <br />
+    <div id="result9" class="redText lead"></div>
+    <form id="quiz-form10">
+      <label class="lead redText">
+        what color is wario's overalls?<br />
+        <br />
+        <select id="quiz-answer10" class="redText lead">
+          <option value="default10"></option>
+          <option>blue</option>
+          <option value="purple">purple</option>
+          <option>green</option>
+          <option>yellow</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-info">Check Answer</button>
+    </form>
+    <br />
+    <div id="result10" class="redText lead"></div>
+
     <img src="https://duckduckgo.com/i/56ee97c6.png" alt="a picture of mario" />
     <p class="marioSpeech redText lead">good job</p>
     <button type="submit" class="lead btn btn-info">
@@ -213,6 +311,75 @@
           $('#result5').text(
             'The correct answer is to undo the carnage done to mushroom kingdom'
           );
+        }
+      });
+
+      $('#quiz-form6').on('submit', function (event) {
+        event.preventDefault();
+        let $answer = $('#quiz-answer6');
+        let answer = $answer.val();
+        console.log(answer);
+        if (answer === 'waluigi') {
+          $('#result6').text('You got it!');
+        } else if (answer === 'default6') {
+          $('#result6').text('');
+        } else {
+          $('#result6').text('The correct answer is waluigi');
+        }
+      });
+
+      $('#quiz-form7').on('submit', function (event) {
+        event.preventDefault();
+        let $answer = $('#quiz-answer7');
+        let answer = $answer.val();
+        console.log(answer);
+        if (answer === 'mega mushroom') {
+          $('#result7').text('You got it!');
+        } else if (answer === 'default7') {
+          $('#result7').text('');
+        } else {
+          $('#result7').text('The correct answer is mega mushroom');
+        }
+      });
+
+      $('#quiz-form8').on('submit', function (event) {
+        event.preventDefault();
+        let $answer = $('#quiz-answer8');
+        let answer = $answer.val();
+        console.log(answer);
+        if (answer === 'lemmy') {
+          $('#result8').text('You got it!');
+        } else if (answer === 'default8') {
+          $('#result8').text('');
+        } else {
+          $('#result8').text('The correct answer is lemmy');
+        }
+      });
+
+      $('#quiz-form9').on('submit', function (event) {
+        event.preventDefault();
+        let $answer = $('#quiz-answer9');
+        let answer = $answer.val();
+        console.log(answer);
+        if (answer === 'ice flower') {
+          $('#result9').text('You got it!');
+        } else if (answer === 'default9') {
+          $('#result9').text('');
+        } else {
+          $('#result9').text('The correct answer is ice flower');
+        }
+      });
+      $('#quiz-form10').on('submit', function (event) {
+        event.preventDefault();
+        let $answer = $('#quiz-answer10');
+        let answer = $answer.val();
+        console.log(answer);
+        if (answer === 'purple') {
+          $('#result10').text('You got it!');
+        } else if (answer === 'default10') {
+          $('#result10').text('');
+        } else {
+          $('#result10').text('The correct answer purple');
         }
       });
     </script>

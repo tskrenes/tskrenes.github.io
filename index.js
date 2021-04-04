@@ -51,6 +51,8 @@ function login() {
   if (password === 'lego2021') {
     hideElement2('login');
     showElement2('page');
+  } else if (password === '') {
+    alert('Please Fill Out This Field.');
   } else {
     alert('Wrong Password!');
   }

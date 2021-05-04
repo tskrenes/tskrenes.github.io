@@ -26,7 +26,6 @@ $('#quiz-form').on('submit', function (event) {
   event.preventDefault();
   let $answer = $('#quiz-answer');
   let answer = $answer.val();
-  console.log(answer);
   if (answer === '$800') {
     $('#result').text('You got it!');
   } else if (answer === 'default') {
@@ -51,11 +50,8 @@ function login() {
   if (password === 'lego2021') {
     hideElement2('login');
     showElement2('page');
-  } else if (password === '') {
-    alert('Please Fill Out This Field.');
-  } else {
-    alert('Wrong Password!');
   }
+  validate();
 }
 function logout() {
   showElement2('login');
@@ -86,3 +82,17 @@ function speechAnimation() {
 }
 
 setInterval(speechAnimation, 4000);
+
+function validate() {
+  let password = $('#inputPassword')[0].value;
+  if (password === '') {
+    alert('Please Fill Out This Field.');
+  } else if (password.length <= 4) {
+    alert('Password Must Be At Least 5 Characters Long.');
+  } else if (password.length > 30) {
+    alert('Password Must Be Less Than 30 Characters Long.');
+    return;
+  } else {
+    alert('Wrong Password!');
+  }
+}

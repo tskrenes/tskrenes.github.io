@@ -50,8 +50,9 @@ function login() {
   if (password === 'lego2021') {
     hideElement2('login');
     showElement2('page');
+  } else {
+    validate();
   }
-  validate();
 }
 function logout() {
   showElement2('login');
@@ -91,7 +92,6 @@ function validate() {
     alert('Password Must Be At Least 5 Characters Long.');
   } else if (password.length > 30) {
     alert('Password Must Be Less Than 30 Characters Long.');
-    return;
   } else {
     alert('Wrong Password!');
   }

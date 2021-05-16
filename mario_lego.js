@@ -2,114 +2,97 @@ const dataStore = [
   {
     title: 'Adventures with Mario Starter Course',
     code: 71360,
-    link:
-      'https://www.lego.com/en-ca/product/adventures-with-mario-starter-course-71360',
+    link: 'https://www.lego.com/en-ca/product/adventures-with-mario-starter-course-71360',
   },
   {
     title: 'Adventures with Luigi Starter Course',
     code: 71387,
-    link:
-      'https://www.lego.com/en-ca/product/adventures-with-luigi-starter-course-71387',
+    link: 'https://www.lego.com/en-ca/product/adventures-with-luigi-starter-course-71387',
   },
   {
     title: 'Piranha Plant Power Slide',
-    code: 71387,
-    link:
-      'https://www.lego.com/en-ca/product/piranha-plant-power-slide-expansion-set-71365',
+    code: 71365,
+    link: 'https://www.lego.com/en-ca/product/piranha-plant-power-slide-expansion-set-71365',
   },
   {
     title: 'Boomer Bill Barrage',
-    code: 71387,
-    link:
-      'https://www.lego.com/en-ca/product/boomer-bill-barrage-expansion-set-71366',
+    code: 71366,
+    link: 'https://www.lego.com/en-ca/product/boomer-bill-barrage-expansion-set-71366',
   },
   {
     title: 'Desert Pokey',
-    code: 71387,
+    code: 71363,
     link: 'https://www.lego.com/en-ca/product/desert-pokey-expansion-set-71363',
   },
   {
     title: 'Whomps Lava Trouble',
-    code: 71387,
-    link:
-      'https://www.lego.com/en-ca/product/whomps-lava-trouble-expansion-set-71364',
+    code: 71364,
+    link: 'https://www.lego.com/en-ca/product/whomps-lava-trouble-expansion-set-71364',
   },
   {
     title: 'Guarded Fortress',
-    code: 71387,
-    link:
-      'https://www.lego.com/en-ca/product/guarded-fortress-expansion-set-71362',
+    code: 71362,
+    link: 'https://www.lego.com/en-ca/product/guarded-fortress-expansion-set-71362',
   },
   {
     title: 'Nintendo Entertainment System',
-    code: 71387,
-    link:
-      'https://www.lego.com/en-ca/product/nintendo-entertainment-system-71374',
+    code: 71374,
+    link: 'https://www.lego.com/en-ca/product/nintendo-entertainment-system-71374',
   },
   {
     title: "Mario's House & Yoshi",
-    code: 71387,
-    link:
-      'https://www.lego.com/en-ca/product/mario-s-house-yoshi-expansion-set-71367',
+    code: 71367,
+    link: 'https://www.lego.com/en-ca/product/mario-s-house-yoshi-expansion-set-71367',
   },
   {
     title: 'Chain Chomp Jungle Encounter',
-    code: 71387,
-    link:
-      'https://www.lego.com/en-ca/product/chain-chomp-jungle-encounter-expansion-set-71381',
+    code: 71381,
+    link: 'https://www.lego.com/en-ca/product/chain-chomp-jungle-encounter-expansion-set-71381',
   },
   {
     title: 'Wigglers Poison Swamp',
-    code: 71387,
-    link:
-      'https://www.lego.com/en-ca/product/wigglers-poison-swamp-expansion-set-71383',
+    code: 71383,
+    link: 'https://www.lego.com/en-ca/product/wigglers-poison-swamp-expansion-set-71383',
   },
   {
     title: 'Piranha Plant Puzzling Challenge',
-    code: 71387,
-    link:
-      'https://www.lego.com/en-ca/product/piranha-plant-puzzling-chalenge-expansion-set-71382',
+    code: 71382,
+    link: 'https://www.lego.com/en-ca/product/piranha-plant-puzzling-chalenge-expansion-set-71382',
   },
   {
     title: 'Master Your Adventure Maker',
-    code: 71387,
-    link:
-      'https://www.lego.com/en-ca/product/master-your-adventure-maker-expansion-set-71380',
+    code: 71380,
+    link: 'https://www.lego.com/en-ca/product/master-your-adventure-maker-expansion-set-71380',
   },
   {
     title: 'King Boo and the Haunted Yard',
-    code: 71387,
-    link:
-      'https://www.lego.com/en-ca/product/king-boo-and-the-haunted-yard-expansion-set-71377',
+    code: 71377,
+    link: 'https://www.lego.com/en-ca/product/king-boo-and-the-haunted-yard-expansion-set-71377',
   },
   {
     title: 'Thwomp Drop',
-    code: 71387,
+    code: 71376,
     link: 'https://www.lego.com/en-ca/product/thwomp-drop-expansion-set-71376',
   },
   {
     title: "Bowser's Castle Boss Battle",
-    code: 71387,
-    link:
-      'https://www.lego.com/en-ca/product/Bowser-s-castle-boss-battle-expansion-set-71369',
+    code: 71369,
+    link: 'https://www.lego.com/en-ca/product/Bowser-s-castle-boss-battle-expansion-set-71369',
   },
   {
     title: "Toad's Treasure Hunt",
-    code: 71387,
-    link:
-      'https://www.lego.com/en-ca/product/toad-s-treasure-hunt-expansion-set-71368',
+    code: 71368,
+    link: 'https://www.lego.com/en-ca/product/toad-s-treasure-hunt-expansion-set-71368',
   },
   {
     title: 'Monty Mole and Super Mushroom',
-    code: 71387,
-    link:
-      'https://www.lego.com/en-ca/product/monty-mole-and-super-mushroom-expansion-set-40414',
+    code: 40414,
+    link: 'https://www.lego.com/en-ca/product/monty-mole-and-super-mushroom-expansion-set-40414',
   },
   {
     title: "Toad's Special Hideaway",
-    code: 71387,
-    link:
-      'https://www.lego.com/en-us/product/toad-s-special-hideaway-expansion-set-77907',
+    code: 77907,
+    link: 'https://www.lego.com/en-us/product/toad-s-special-hideaway-expansion-set-77907',
   },
 ];
 

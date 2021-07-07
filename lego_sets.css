@@ -1,0 +1,62 @@
+.redText {
+  color: red;
+}
+body {
+  background-color: yellow;
+}
+.gradient {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+.shadow {
+  text-shadow: 3px 3px 5px purple;
+}
+::selection {
+  background: rgb(115, 255, 0);
+}
+.box {
+  height: 300px;
+  width: 300px;
+  border: 10px solid paleturquoise;
+  overflow: auto;
+}
+h1 {
+  color: rgb(255, 0, 0);
+}
+p {
+  color: red;
+}
+h5 {
+  color: red;
+}
+.input {
+  width: 200px;
+}
+.thwomp:hover {
+  color: rgb(214, 45, 16);
+}
+.thwomp {
+  color: red;
+}
+.big {
+  width: 18rem;
+  height: 17.5rem;
+}
+.thwompBig:hover {
+  width: 18.5rem;
+  height: 15.4rem;
+}
+.wigglerBig:hover {
+  width: 18.5rem;
+  height: 16.5rem;
+}

@@ -1,0 +1,19 @@
+body {
+  background-color: yellow;
+}
+.redText {
+  color: rgb(255, 60, 0);
+}
+h1 {
+  color: rgb(255, 60, 0);
+}
+.marioSpeech {
+  margin-left: 50px;
+}
+.quiz {
+  text-decoration: none;
+  color: red;
+}
+.quiz:hover {
+  color: red;
+}

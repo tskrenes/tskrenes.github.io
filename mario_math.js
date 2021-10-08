@@ -20,18 +20,21 @@ function check() {
 }
 
 let num6;
+let num8;
 
 function next2() {
-  const num5 = 100 + Math.random() * 200;
+  const num5 = 10000 + Math.random() * 490000;
   num6 = Math.round(num5);
+  const num7 = 10000 + Math.random() * 490000;
+  num8 = Math.round(num7);
   $('#math2').html(
-    `mario, peach, toad, luigi, wario, and donkey kong each have ${num6} coins. how many do they have in total?`
+    `mario has ${num6} coins and peach has ${num8} coins do they have in total?`
   );
 }
 
 function check2() {
   let answer = $('#answer2')[0].value;
-  if (answer == 6 * num6) {
+  if (answer == num8 + num6) {
     alert('correct!');
   } else {
     alert('try again.');

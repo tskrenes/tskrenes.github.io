@@ -47,7 +47,7 @@ function showElement2(className) {
 
 function login() {
   let password = $('#inputPassword')[0].value;
-  if (password === 'lego2021') {
+  if (password === 'legoMario2022') {
     hideElement2('login');
     showElement2('page');
   } else {

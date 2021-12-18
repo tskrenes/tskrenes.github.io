@@ -1,3 +1,5 @@
+let correct = 0;
+
 $('#quiz-form').on('submit', function (event) {
   event.preventDefault();
   let $answer = $('#quiz-answer');
@@ -5,6 +7,7 @@ $('#quiz-form').on('submit', function (event) {
   console.log(answer);
   if (answer === 'jumpman') {
     $('#result').text('You got it!');
+    correct++;
   } else if (answer === 'default') {
     $('#result').text('');
   } else {
@@ -19,6 +22,7 @@ $('#quiz-form2').on('submit', function (event) {
   console.log(answer);
   if (answer === '1985') {
     $('#result2').text('You got it!');
+    correct++;
   } else if (answer === 'default2') {
     $('#result2').text('');
   } else {
@@ -33,6 +37,7 @@ $('#quiz-form3').on('submit', function (event) {
   console.log(answer);
   if (answer === '24-25') {
     $('#result3').text('You got it!');
+    correct++;
   } else if (answer === 'default3') {
     $('#result3').text('');
   } else {
@@ -45,13 +50,14 @@ $('#quiz-form4').on('submit', function (event) {
   let $answer = $('#quiz-answer4');
   let answer = $answer.val();
   console.log(answer);
-  if (answer === 'all the toads') {
+  if (answer === 'taller') {
     $('#result4').text('You got it!');
+    correct++;
   } else if (answer === 'default4') {
     $('#result4').text('');
   } else {
     $('#result4').text(
-      'The correct answer is the trapped toads of mushroom kingdom'
+      'The correct answer is luigi is taller and mario wears red'
     );
   }
 });
@@ -61,14 +67,13 @@ $('#quiz-form5').on('submit', function (event) {
   let $answer = $('#quiz-answer5');
   let answer = $answer.val();
   console.log(answer);
-  if (answer === 'undo carnage') {
+  if (answer === 'his hand') {
     $('#result5').text('You got it!');
+    correct++;
   } else if (answer === 'default5') {
     $('#result5').text('');
   } else {
-    $('#result5').text(
-      'The correct answer is to undo the carnage done to mushroom kingdom'
-    );
+    $('#result5').text('The correct answer is with his hand');
   }
 });
 
@@ -79,6 +84,7 @@ $('#quiz-form6').on('submit', function (event) {
   console.log(answer);
   if (answer === 'waluigi') {
     $('#result6').text('You got it!');
+    correct++;
   } else if (answer === 'default6') {
     $('#result6').text('');
   } else {
@@ -93,6 +99,7 @@ $('#quiz-form7').on('submit', function (event) {
   console.log(answer);
   if (answer === 'mega mushroom') {
     $('#result7').text('You got it!');
+    correct++;
   } else if (answer === 'default7') {
     $('#result7').text('');
   } else {
@@ -107,6 +114,7 @@ $('#quiz-form8').on('submit', function (event) {
   console.log(answer);
   if (answer === 'lemmy') {
     $('#result8').text('You got it!');
+    correct++;
   } else if (answer === 'default8') {
     $('#result8').text('');
   } else {
@@ -121,6 +129,7 @@ $('#quiz-form9').on('submit', function (event) {
   console.log(answer);
   if (answer === 'ice flower') {
     $('#result9').text('You got it!');
+    correct++;
   } else if (answer === 'default9') {
     $('#result9').text('');
   } else {
@@ -134,9 +143,21 @@ $('#quiz-form10').on('submit', function (event) {
   console.log(answer);
   if (answer === 'purple') {
     $('#result10').text('You got it!');
+    correct++;
+    console.log(correct);
   } else if (answer === 'default10') {
     $('#result10').text('');
   } else {
     $('#result10').text('The correct answer purple');
+  }
+
+  if (correct <= 3) {
+    $('.mario').text(`Nice Try. You got ${correct}/10 correct.`);
+  } else if (correct <= 6) {
+    $('.mario').text(`Good job. You got ${correct}/10 correct.`);
+  } else if (correct < 9) {
+    $('.mario').text(`Wow! You got ${correct}/10 correct.`);
+  } else {
+    $('.mario').text(`Your a Mario master! You got ${correct}/10 correct.`);
   }
 });

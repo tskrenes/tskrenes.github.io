@@ -94,6 +94,71 @@ const dataStore = [
     code: 77907,
     link: 'https://www.lego.com/en-us/product/toad-s-special-hideaway-expansion-set-77907',
   },
+  {
+    title: 'Super Mushroom Surprise',
+    code: 30385,
+    link: 'https://www.lego.com/en-ie/product/super-mushroom-surprise-expansion-set-30385',
+  },
+  {
+    title: 'Boss Sumo Bro Topple Tower',
+    code: 71388,
+    link: 'https://www.lego.com/en-ca/product/boss-sumo-bro-topple-tower-expansion-set-71388',
+  },
+  {
+    title: 'Reznor Knockdown',
+    code: 71390,
+    link: 'https://www.lego.com/en-ca/product/reznor-knockdown-expansion-set-71390',
+  },
+  {
+    title: "Bowser's Airship",
+    code: 71391,
+    link: 'https://www.lego.com/en-ca/product/bowser-s-airship-expansion-set-71391',
+  },
+  {
+    title: 'Lakitu Sky World',
+    code: 71389,
+    link: 'https://www.lego.com/en-ca/product/lakitu-sky-world-expansion-set-71389',
+  },
+  {
+    title: 'Tanooki Mario Power-Up Pack',
+    code: 71385,
+    link: 'https://www.lego.com/en-ca/product/tanooki-mario-power-up-pack-71385',
+  },
+  {
+    title: 'Bee Mario Power-Up Pack',
+    code: 71393,
+    link: 'https://www.lego.com/en-ca/product/bee-mario-power-up-pack-71393',
+  },
+  {
+    title: 'Character Pack - Series 4',
+    code: 71402,
+    link: 'https://www.lego.com/en-ca/product/character-packs-series-4-71402',
+  },
+  {
+    title: "Dorrie's Beachfront",
+    code: 71398,
+    link: 'https://www.lego.com/en-ca/product/dorrie-s-beachfront-expansion-set-71398',
+  },
+  {
+    title: "Bowser Jr.'s Clown Car",
+    code: 71396,
+    link: 'https://www.lego.com/en-ca/product/bowser-jr-s-clown-car-expansion-set-71396',
+  },
+  {
+    title: "Luigi's Mansion Entryway",
+    code: 71399,
+    link: 'https://www.lego.com/en-ca/product/luigi-s-mansion-entryway-expansion-set-71399',
+  },
+  {
+    title: "Luigi's Mansion Haunt-and-Seek",
+    code: 71401,
+    link: 'https://www.lego.com/en-ca/product/luigi-s-mansion-haunt-and-seek-expansion-set-71401',
+  },
+  {
+    title: "Luigi's Mansion Lab and Poltergust",
+    code: 71397,
+    link: 'https://www.lego.com/en-ca/product/luigi-s-mansion-lab-and-poltergust-expansion-set-71397',
+  },
 ];
 
 function searchCode(code) {

@@ -96,17 +96,15 @@
 
     <form id="quiz-form4">
       <label class="lead redText">
-        What are the bricks supposed to be?<br />
+        Which is true about Mario and Luigi?<br />
 
         <br />
         <select id="quiz-answer4" class="redText lead">
           <option value="default4"></option>
-          <option>the bricks in Peach's castle</option>
-          <option>bad guys</option>
-          <option>bricks</option>
-          <option value="all the toads">
-            the trapped toads of mushroom kingdom
-          </option>
+          <option>Mario is taller and Luigi wears green</option>
+          <option>Luigi is taller and Mario wears green</option>
+          <option>Mario is taller and Luigi wears red</option>
+          <option value="taller">Luigi is taller and mario wears red</option>
         </select>
       </label>
       <button type="submit" class="lead redText btn btn-info">
@@ -118,17 +116,15 @@
 
     <form id="quiz-form5">
       <label class="lead redText">
-        Why does Bowser keep kidnaping peach?<br />
+        How does mario smash bricks?<br />
 
         <br />
         <select id="quiz-answer5" class="redText lead">
           <option value="default5"></option>
-          <option>he wants her special powers</option>
-          <option>to be mean</option>
-          <option value="undo carnage">
-            to undo carnage done to mushroom kingdom
-          </option>
-          <option>to get mario tired out</option>
+          <option>with his head</option>
+          <option>he can't</option>
+          <option value="his hand">with his hand</option>
+          <option>with his mustache</option>
         </select>
       </label>
       <button type="submit" class="lead btn btn-danger">Check Answer</button>
@@ -221,7 +217,9 @@
     <br />
     <div id="result10" class="redText lead"></div>
     <img src="/images/mario.png" alt="a picture of mario" />
-    <p class="marioSpeech redText lead">Good job. <br /></p>
+
+    <div class="marioSpeech redText lead mario"></div>
+
     <button type="submit" class="lead btn btn-info">
       <a href="mario_quiz.html" class="quiz">try quiz again</a>
     </button>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mario quiz</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/mario_quiz.css" />
+  </head>
+  <body>
+    <h1>Super Mario Odyssey Quiz</h1>
+    <form id="quiz-form">
+      <label class="lead redText">
+        What is the talking cap Mario wears called? <br />
+        <img src="/images/cappy.webp" alt="" width="250px" />
+
+        <br />
+        <select id="quiz-answer" class="redText lead">
+          <option value="default"></option>
+          <option value="cappy">cappy</option>
+          <option>perry</option>
+          <option>tiara</option>
+          <option>crafty</option>
+        </select>
+      </label>
+      <button type="submit" class="lead redText btn btn-primary" id="butt">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result" class="redText lead"></div>
+
+    <form id="quiz-form2">
+      <label class="lead redText">
+        What are the ghost-like top hats called? <br />
+        <img src="/images/bonneter.png" alt="" width="170px" />
+
+        <br />
+        <select id="quiz-answer2" class="redText lead">
+          <option value="default2"></option>
+          <option>bonnets</option>
+          <option>toppys</option>
+          <option>top-hatters</option>
+          <option value="bonneters">bonneters</option>
+        </select>
+      </label>
+      <button type="submit" class="lead redText btn btn-success" id="butt2">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result2" class="redText lead"></div>
+
+    <form id="quiz-form3">
+      <label class="lead redText">
+        What are the names of the 4 broodals? <br />
+        <img src="/images/broodals.png" alt="" width="400px" />
+
+        <br />
+        <select id="quiz-answer3" class="redText lead">
+          <option value="default3"></option>
+          <option>spoowert, topphead, rango, and hariet</option>
+          <option value="broodal">spewart, rango, hariet, and topper</option>
+          <option>jumper, rango, bombom, and spewer</option>
+          <option>sawhat, hariet, topper, and spewert</option>
+        </select>
+      </label>
+      <button type="submit" class="lead redText btn btn-warning" id="butt3">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result3" class="redText lead"></div>
+
+    <form id="quiz-form4">
+      <label class="lead redText">
+        In two player mode, which playable characters are there?<br />
+        <img src="/images/jumping_mario.png" alt="" width="250px" />
+
+        <br />
+        <select id="quiz-answer4" class="redText lead">
+          <option value="default4"></option>
+          <option>Mario and Luigi</option>
+          <option>Mario and Tiara</option>
+          <option>Mario and Toad</option>
+          <option value="M&C">Mario and Cappy</option>
+        </select>
+      </label>
+      <button type="submit" class="lead redText btn btn-info" id="butt4">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result4" class="redText lead"></div>
+
+    <form id="quiz-form5">
+      <label class="lead redText">
+        What is the town in the cap kingdom called?<br />
+        <br />
+        <img src="/images/cap_kingdom.jpg" alt="" width="300px" />
+        <br />
+
+        <br />
+        <select id="quiz-answer5" class="redText lead">
+          <option value="default5"></option>
+          <option>topton</option>
+          <option>top hat town</option>
+          <option>bonnetown</option>
+          <option value="bonneton">bonneton</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-danger" id="butt5">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result5" class="redText lead"></div>
+    <form id="quiz-form6">
+      <label class="lead redText">
+        who is this?<br />
+        <img src="/images/pokio.png" width="200px" alt="" />
+        <br />
+        <select id="quiz-answer6" class="redText lead">
+          <option value="default6"></option>
+          <option>poko</option>
+          <option value="pokio">pokio</option>
+          <option>pokey</option>
+          <option>poker</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-primary" id="butt6">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result6" class="redText lead"></div>
+    <br />
+    <form id="quiz-form7">
+      <label class="lead redText">
+        In this game, Mario has a health meter. How many sections does it
+        regularly have?<br />
+        <img src="/images/heart.png" alt="" width="150px" />
+        <br />
+        <select id="quiz-answer7" class="redText lead">
+          <option value="default7"></option>
+          <option value="3">3</option>
+          <option>6</option>
+          <option>8</option>
+          <option>9</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-success" id="butt7">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result7" class="redText lead"></div>
+    <form id="quiz-form8">
+      <label class="lead redText">
+        Who is the leader of the toad brigade?<br />
+        <img src="/images/toad_brigade.png" alt="" width="200px" />
+        <br />
+        <select id="quiz-answer8" class="redText lead">
+          <option value="default8"></option>
+          <option>hint toad</option>
+          <option>yellow toad</option>
+          <option>bank toad</option>
+          <option value="captian toad">captian toad</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-warning" id="butt8">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result8" class="redText lead"></div>
+    <form id="quiz-form9">
+      <label class="lead redText">
+        What color is mini goomba?<br />
+        <img
+          src="/images/Mini_Goomba.png"
+          style="filter: grayscale(100%)"
+          alt=""
+          width="100px"
+        />
+        <p style="font-size: smaller">colors hidden</p>
+        <br />
+        <select id="quiz-answer9" class="redText lead">
+          <option value="default9"></option>
+          <option value="yellow">yellow</option>
+          <option>brown</option>
+          <option>white</option>
+          <option>grey</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-info" id="butt9">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result9" class="redText lead"></div>
+    <form id="quiz-form10">
+      <label class="lead redText">
+        What are the main collectables of the game called?<br />
+        <br />
+        <img src="/images/question_block.png" alt="" width="150px" />
+        <br />
+        <br />
+        <select id="quiz-answer10" class="redText lead">
+          <option value="default10"></option>
+          <option>coins</option>
+          <option value="power moon">power moons</option>
+          <option>shine sprites</option>
+          <option>power stars</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-info" id="butt10">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result10" class="redText lead"></div>
+    <img
+      src="/images/bonneter_cappy.png"
+      width="200"
+      alt="a picture of cappy"
+    />
+
+    <div class="marioSpeech redText lead mario"></div>
+
+    <button type="submit" class="lead btn btn-info">
+      <a href="super_mario_odyssey_quiz.html" class="quiz">try quiz again</a>
+    </button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="super_mario_odyssey_quiz.js"></script>
+  </body>
+</html>

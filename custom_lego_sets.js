@@ -1,26 +1,26 @@
 const dataStore = [
   {
-    title: 'Mario Kart',
+    title: 'Mario Kart(coming soon)',
     code: 71598,
     link: 'https://www.lego.com/en-ca/product/adventures-with-mario-starter-course-71360',
   },
   {
     title: "Mario Kart Bowser's Castle",
     code: 71482,
-    link: 'https://www.lego.com/en-ca/product/adventures-with-luigi-starter-course-71387',
+    link: 'https://tyrian.skrenes.com/images/mario_kart_bowsers_castle.png',
   },
   {
-    title: 'Mario Kart Mario Circuit (coming soon)',
+    title: 'Mario Kart Mario Kart Stadium(coming soon)',
     code: 71834,
     link: 'https://www.lego.com/en-ca/product/piranha-plant-power-slide-expansion-set-71365',
   },
   {
-    title: 'Mario Kart Donut Plains 3',
+    title: 'Mario Kart Donut Plains 3(coming soon)',
     code: 71784,
     link: 'https://www.lego.com/en-ca/product/boomer-bill-barrage-expansion-set-71366',
   },
   {
-    title: 'Mario Kart Moo Moo Meadows (coming soon)',
+    title: 'Mario Kart Moo Moo Meadows(coming soon)',
     code: 71867,
     link: 'https://www.lego.com/en-ca/product/desert-pokey-expansion-set-71363',
   },
@@ -32,7 +32,7 @@ const dataStore = [
   {
     title: 'Nintendo Switch Lite',
     code: 71952,
-    link: 'https://www.lego.com/en-ca/product/guarded-fortress-expansion-set-71362',
+    link: 'https://tyrian.skrenes.com/images/nintendo_switch_lite.png',
   },
   {
     title: 'Nintendo Switch(coming soon)',
@@ -40,17 +40,17 @@ const dataStore = [
     link: 'https://www.lego.com/en-ca/product/nintendo-entertainment-system-71374',
   },
   {
-    title: 'Rock-Candy Mines',
+    title: 'Rock-Candy Mines(coming soon)',
     code: 71536,
     link: 'https://www.lego.com/en-ca/product/mario-s-house-yoshi-expansion-set-71367',
   },
   {
-    title: 'Frozen World',
+    title: 'Frozen World(coming soon)',
     code: 71472,
     link: 'https://www.lego.com/en-ca/product/chain-chomp-jungle-encounter-expansion-set-71381',
   },
   {
-    title: 'Character Pack - Series 1',
+    title: 'Character Pack - Series 1(coming soon)',
     code: 71383,
     link: 'https://www.lego.com/en-ca/product/wigglers-poison-swamp-expansion-set-71383',
   },
@@ -75,49 +75,49 @@ const dataStore = [
     link: 'https://www.lego.com/en-ca/product/thwomp-drop-expansion-set-71376',
   },
   {
-    title: 'Super Mario Odyssey Luncheon Kingdom',
+    title: 'Super Mario Odyssey Luncheon Kingdom(coming soon)',
     code: 71974,
     link: 'https://www.lego.com/en-ca/product/Bowser-s-castle-boss-battle-expansion-set-71369',
   },
   {
     title: "Mario Party Bounce 'n' Trounce",
     code: 71693,
-    link: 'https://www.lego.com/en-ca/product/toad-s-treasure-hunt-expansion-set-71368',
+    link: 'https://tyrian.skrenes.com/images/bounce_n_trounce.png',
   },
   {
     title: 'Mario Party Chip Shot Challenge',
     code: 71480,
-    link: 'https://www.lego.com/en-ca/product/monty-mole-and-super-mushroom-expansion-set-40414',
+    link: 'https://tyrian.skrenes.com/images/chip_shot_challange.png',
   },
   {
     title: 'Mario Party The Beat Goes On',
     code: 71730,
-    link: 'https://www.lego.com/en-us/product/toad-s-special-hideaway-expansion-set-77907',
+    link: 'https://tyrian.skrenes.com/images/the_beat_goes_on.png',
   },
   {
-    title: "Mario Party Game Guy's Lucky 7",
-    code: 30385,
+    title: "Mario Party Game Guy's Lucky 7(coming soon)",
+    code: 71490,
     link: 'https://www.lego.com/en-ie/product/super-mushroom-surprise-expansion-set-30385',
   },
   {
-    title: 'Mario Party Mini-Game Melee',
+    title: 'Mario Party Mini-Game Melee(coming soon)',
     code: 71388,
-    link: 'https://www.lego.com/en-ca/product/boss-sumo-bro-topple-tower-expansion-set-71388',
+    link: 'https://tyrian.skrenes.com/images/mario_kart_bowsers_castle.png',
   },
   {
     title: 'Mario Party Pushy Penguins',
     code: 71390,
-    link: 'https://www.lego.com/en-ca/product/reznor-knockdown-expansion-set-71390',
+    link: 'https://tyrian.skrenes.com/images/pushy_penguins.png',
   },
   {
     title: 'Mario Party Roll Call',
     code: 71391,
-    link: 'https://www.lego.com/en-ca/product/bowser-s-airship-expansion-set-71391',
+    link: 'https://tyrian.skrenes.com/images/roll_call.png',
   },
   {
     title: 'Mario Party Night Light Fright',
     code: 71389,
-    link: 'https://www.lego.com/en-ca/product/lakitu-sky-world-expansion-set-71389',
+    link: 'https://tyrian.skrenes.com/images/night_light_fright.png',
   },
   {
     title: 'Mario Party At The Chomp Wash(coming soon)',
@@ -125,7 +125,7 @@ const dataStore = [
     link: 'https://www.lego.com/en-ca/product/tanooki-mario-power-up-pack-71385',
   },
   {
-    title: 'Bee Mario Power-Up Pack',
+    title: 'Super Mario Odyssey Wooded Kingdom(coming soon)',
     code: 71393,
     link: 'https://www.lego.com/en-ca/product/bee-mario-power-up-pack-71393',
   },

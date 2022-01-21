@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mario quiz</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/mario_quiz.css" />
+  </head>
+  <body>
+    <h1>Mario quiz</h1>
+    <form id="quiz-form">
+      <label class="lead redText">
+        What was Mario's name in Donkey Kong? <br />
+
+        <br />
+        <select id="quiz-answer" class="redText lead">
+          <option value="default"></option>
+          <option>carpenterman</option>
+          <option>plumberman</option>
+          <option value="jumpman">jumpman</option>
+          <option>pipeman</option>
+        </select>
+      </label>
+      <button type="submit" class="lead redText btn btn-primary" id="butt">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result" class="redText lead"></div>
+
+    <form id="quiz-form2">
+      <label class="lead redText">
+        What year was Super Mario Bros released? <br />
+
+        <br />
+        <select id="quiz-answer2" class="redText lead">
+          <option value="default2"></option>
+          <option>1974</option>
+          <option value="1985">1985</option>
+          <option>1962</option>
+          <option>1998</option>
+        </select>
+      </label>
+      <button type="submit" class="lead redText btn btn-success" id="butt2">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result2" class="redText lead"></div>
+
+    <form id="quiz-form3">
+      <label class="lead redText">
+        How old is Mario supposed to be? <br />
+
+        <br />
+        <select id="quiz-answer3" class="redText lead">
+          <option value="default3"></option>
+          <option value="24-25">24-25</option>
+          <option>over 60</option>
+          <option>30-45</option>
+          <option>30</option>
+        </select>
+      </label>
+      <button type="submit" class="lead redText btn btn-warning" id="butt3">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result3" class="redText lead"></div>
+
+    <form id="quiz-form4">
+      <label class="lead redText">
+        Which is true about Mario and Luigi?<br />
+
+        <br />
+        <select id="quiz-answer4" class="redText lead">
+          <option value="default4"></option>
+          <option>Mario is taller and Luigi wears green</option>
+          <option>Luigi is taller and Mario wears green</option>
+          <option>Mario is taller and Luigi wears red</option>
+          <option value="taller">Luigi is taller and mario wears red</option>
+        </select>
+      </label>
+      <button type="submit" class="lead redText btn btn-info" id="butt4">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result4" class="redText lead"></div>
+
+    <form id="quiz-form5">
+      <label class="lead redText">
+        How does mario smash bricks?<br />
+
+        <br />
+        <select id="quiz-answer5" class="redText lead">
+          <option value="default5"></option>
+          <option>with his head</option>
+          <option>he can't</option>
+          <option value="his hand">with his hand</option>
+          <option>with his mustache</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-danger" id="butt5">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result5" class="redText lead"></div>
+    <form id="quiz-form6">
+      <label class="lead redText">
+        who is this?<br />
+        <img src="/images/waluigi.png" alt="" />
+        <br />
+        <select id="quiz-answer6" class="redText lead">
+          <option value="default6"></option>
+          <option value="waluigi">waluigi</option>
+          <option>mario</option>
+          <option>luigi</option>
+          <option>wario</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-primary" id="butt6">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result6" class="redText lead"></div>
+    <br />
+    <form id="quiz-form7">
+      <label class="lead redText">
+        what power-up is this?<br />
+        <img src="/images/mega_mushroom.png" alt="" width="150px" />
+        <br />
+        <select id="quiz-answer7" class="redText lead">
+          <option value="default7"></option>
+          <option>hot dog mushroom</option>
+          <option value="mega mushroom">mega mushroom</option>
+          <option>mushroom</option>
+          <option>wario mushroom</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-success" id="butt7">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result7" class="redText lead"></div>
+    <form id="quiz-form8">
+      <label class="lead redText">
+        who is this?<br />
+        <img src="/images/lemmy_koopa.png" alt="" width="100px" />
+        <br />
+        <select id="quiz-answer8" class="redText lead">
+          <option value="default8"></option>
+          <option>lenny</option>
+          <option>ball boy</option>
+          <option value="lemmy">lemmy</option>
+          <option>bouncer</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-warning" id="butt8">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result9" class="redText lead"></div>
+    <form id="quiz-form9">
+      <label class="lead redText">
+        what power-up is this?<br />
+        <img src="/images/ice_flower.png" alt="" width="100px" />
+        <br />
+        <select id="quiz-answer9" class="redText lead">
+          <option value="default9"></option>
+          <option>freeze flower</option>
+          <option>penguin flower</option>
+          <option>blue flower</option>
+          <option value="ice flower">ice flower</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-info" id="butt9">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result10" class="redText lead"></div>
+    <form id="quiz-form10">
+      <label class="lead redText">
+        what color is wario's overalls?<br />
+        <br />
+        <select id="quiz-answer10" class="redText lead">
+          <option value="default10"></option>
+          <option>blue</option>
+          <option value="purple">purple</option>
+          <option>green</option>
+          <option>yellow</option>
+        </select>
+      </label>
+      <button type="submit" class="lead btn btn-info" id="butt10">
+        Check Answer
+      </button>
+    </form>
+    <br />
+    <div id="result10" class="redText lead"></div>
+    <img src="/images/mario.png" alt="a picture of Mario" />
+
+    <div class="marioSpeech redText lead mario"></div>
+
+    <button type="submit" class="lead btn btn-info">
+      <a href="mario_quiz.html" class="quiz">try quiz again</a>
+    </button>
+    <br />
+    <br />
+    <p class="redText lead">now you've done the basics. try some other ones.</p>
+
+    <a class="lead" href="super_mario_64_quiz.html">super mario 64 quiz</a>
+    <br /><br />
+    <a class="lead" href="super_mario_odyssey_quiz.html"
+      >super mario odyssey quiz</a
+    >
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="mario_quiz.js"></script>
+  </body>
+</html>
